@@ -10,9 +10,11 @@ No Keynote. No PowerPoint. No design skills needed.
 
 1. **Copy an example.** Pick the one closest to what you need:
 
-   - `examples/art-tank-pitch.md` — 5-slide Product Lab pitch
-   - `examples/team-update.md` — monthly or weekly update
-   - `examples/quarterly-review.md` — full quarterly review
+   | Example | Use for |
+   |---------|---------|
+   | [`art-tank-pitch.md`](examples/art-tank-pitch.md) | 5-slide Product Lab pitch |
+   | [`team-update.md`](examples/team-update.md) | Monthly or weekly update |
+   | [`quarterly-review.md`](examples/quarterly-review.md) | Full quarterly review |
 
 2. **Edit the text.** Replace the placeholder content with yours.
 
@@ -24,6 +26,22 @@ No Keynote. No PowerPoint. No design skills needed.
 4. **Save, open, present.** You get an HTML file — double-click to open in a browser, or export to PDF.
 
 That's it.
+
+---
+
+## What you get
+
+### Art Tank pitch
+
+![Art Tank Pitch example](screenshots/art-tank-pitch.png)
+
+### Team update
+
+![Team Update example](screenshots/team-update.png)
+
+### Quarterly review
+
+![Quarterly Review example](screenshots/quarterly-review.png)
 
 ---
 
