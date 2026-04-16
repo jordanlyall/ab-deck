@@ -21,7 +21,7 @@ No Keynote. No PowerPoint. No design skills needed.
 3. **Ask Claude to build it.**
 
    - **Claude Code:** *"Use ab-deck to build this outline:"* and paste your edited file.
-   - **Claude.ai / Cursor / any Claude:** paste `SKILL.md` as first message, then paste your outline.
+   - **Claude.ai / Cowork / Cursor / any Claude:** follow the [Cowork guide](COWORK.md) — paste [`PROMPT.md`](PROMPT.md), then the template, then your outline.
 
 4. **Save, open, present.** You get an HTML file — double-click to open in a browser, or export to PDF.
 
