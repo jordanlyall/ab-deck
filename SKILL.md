@@ -20,7 +20,7 @@ Generate self-contained HTML presentations matching the Art Blocks internal deck
 2. For each slide block, render the matching HTML from the slide type reference
 3. Inject all slide HTML into `templates/deck-shell.html` at the `<!-- SLIDES -->` marker
 4. Write output to `~/Desktop/{output}.html`
-5. Run `build.sh {output}` to generate matching landscape PDF
+5. Run `~/.claude/skills/ab-deck/build.sh ~/Desktop/{output}.html` to generate matching landscape PDF
 6. Open both files
 
 ## Input format
@@ -36,8 +36,7 @@ preset: ab-dark
 
 ## slide: title
 meta: Quarterly Review | Q2 2026
-headline: Q1 landed. [[Q2 is loaded.]]
-subhead: A dense quarter behind. A focused one ahead.
+headline: Q2 Review + Q3 Planning · July 29, 2026
 
 ## slide: divider
 label: Act 1 · Q1
@@ -252,7 +251,7 @@ Bucket-style table with optional goal callout. Use for strategy mapping, compari
 3. For each slide, render the HTML snippet from the matching type above
 4. Replace `<!-- SLIDES -->` marker in the shell with concatenated slide HTML
 5. Write to `~/Desktop/{output}.html`
-6. Tell user to refresh the browser or run `~/.claude/skills/ab-deck/build.sh {output}` to generate PDF
+6. Tell user to refresh the browser or run `~/.claude/skills/ab-deck/build.sh ~/Desktop/{output}.html` to generate PDF
 
 ## Chromie gradient highlight
 
